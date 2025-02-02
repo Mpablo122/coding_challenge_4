@@ -56,6 +56,11 @@ for (const element of products) {
     
 }
 
+// "Task 7 - Order Processing." foreach
+let orders = [101, 102, 103]
+orders.forEach(element => {
+        console.log("Order ID: " + element)
+});
 
 
 
