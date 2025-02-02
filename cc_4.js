@@ -1,13 +1,13 @@
 //"Task 1 - Customer Discounts."
 let purchaseamount = 200
-let discounted_amount = purchaseamount;
+let finaldiscounted_price = purchaseamount;
 if (purchaseamount > 100) {
-    let discounted_amount = purchaseamount * 0.2;
-    finalprice = purchaseamount - discounted_amount; //get finalized amount
+    discounted_price = purchaseamount * 0.2;
+    finaldiscounted_price = purchaseamount - discounted_price
     console.log("20% off")
 
 }
-console.log(`Final price after discount: $${finalprice}`);
+console.log(`Final price after discount: $${finaldiscounted_price}`);
 
 // "Task 2 - Sales Report."
 
