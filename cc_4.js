@@ -28,4 +28,11 @@ while (stock > 0) {
     stock--; // subtracting stocks 1 by 1
 }
 
+//"Task 4 - Customer Survey."
+let responses = 0 
+do {
+    console.log ("Collection of responses:", responses);
+    responses++;
+} while (responses < 3);
+
 
