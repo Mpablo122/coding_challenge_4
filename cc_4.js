@@ -35,4 +35,20 @@ do {
     responses++;
 } while (responses < 3);
 
+//"Task 5 - Employee Information."
+let employee = {
+    name: "Alice", 
+    position: "Manager",
+    salary: 75000
+}
+for (let key in employee) {
+    if (Object.prototype.hasOwnProperty.call(employee, key)) {
+        const element = employee[key];
+        console.log(key + ":" +element)
+    }
+}
+
+
+
+
 
