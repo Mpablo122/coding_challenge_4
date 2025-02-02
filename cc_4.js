@@ -35,7 +35,7 @@ do {
     responses++;
 } while (responses < 3);
 
-//"Task 5 - Employee Information."
+//"Task 5 - "Employee Information." for in loop
 let employee = {
     name: "Alice", 
     position: "Manager",
@@ -48,6 +48,13 @@ for (let key in employee) {
     }
 }
 
+//"Task 6 - Product Listings." for of loop
+let products = ["Laptop", "Mouse", "Keyboard"]
+
+for (const element of products) {
+    console.log("Products:" + element);
+    
+}
 
 
 
