@@ -62,5 +62,11 @@ orders.forEach(element => {
         console.log("Order ID: " + element)
 });
 
+// "Task 8: Tax Calculation"
 
+function calculateTax(amount) {
+    return amount * 0.30;
+}
+
+console.log("Return of calculated tax:", calculateTax(1000));
 
