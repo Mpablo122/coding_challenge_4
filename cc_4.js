@@ -20,6 +20,12 @@ for (let index = 0; index < sales.length; index++) {
 console.log (`Total Sales: $${totalsales}`);
 
 
+//  "Task 3 - Inventory Depletion."
 
+let stock = 10
+while (stock > 0) {
+    console.log("Stocks left is:" , stock);
+    stock--; // subtracting stocks 1 by 1
+}
 
 
