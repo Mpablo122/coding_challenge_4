@@ -77,3 +77,13 @@ function applydiscount(number) {
 console.log("Discount is:" , applydiscount(400))
 PriceAfterDiscount = 400 - applydiscount(400)
 console.log("Price After 40% discount", PriceAfterDiscount )
+
+//
+const calculatePoints = (amountpurchased) => {
+    return amountpurchased / 10;
+}
+
+//"Task 10 - Loyalty Points."
+
+let points = calculatePoints(100);
+console.log("Earned Points:" + points)
